@@ -1,0 +1,4 @@
+from safeway_guardian.examples import health_guardian
+
+health_monitor = health_guardian.HealthGuardianAI()
+wellness_analysis = health_monitor.monitor_population_health(community_data)
