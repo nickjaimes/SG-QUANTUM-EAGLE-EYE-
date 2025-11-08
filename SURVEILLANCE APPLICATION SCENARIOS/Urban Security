@@ -1,0 +1,4 @@
+from safeway_guardian.examples import urban_surveillance
+
+urban_monitor = urban_surveillance.UrbanSecurityAI()
+city_security = urban_monitor.monitor_metropolitan_area(city_data)
