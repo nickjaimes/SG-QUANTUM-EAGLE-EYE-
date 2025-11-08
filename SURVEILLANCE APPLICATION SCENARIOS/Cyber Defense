@@ -1,0 +1,4 @@
+from safeway_guardian.examples import cyber_defense
+
+cyber_shield = cyber_defense.CyberDefenseAI()
+threat_response = cyber_shield.defend_network(network_topology)
