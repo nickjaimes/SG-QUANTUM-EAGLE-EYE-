@@ -1,0 +1,11 @@
+# Run comprehensive Eagle Eye tests
+pytest tests/test_eagle_core.py
+
+# Test world monitoring systems
+pytest tests/test_world_monitoring.py
+
+# Cross-realm analytics testing
+pytest tests/test_cross_realm.py
+
+# Performance benchmarking
+python -m safeway_guardian.testing.surveillance_benchmark
